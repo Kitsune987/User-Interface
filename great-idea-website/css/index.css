@@ -3,64 +3,253 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+  width: 876px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+  margin: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.logo {
+  margin-top: 20px;
+  float: right;
+}
+
+.below-header {
+  display: inline-block;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 480px;
+  font-size: 72px;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+}
+
+.get-started {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.2em;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.circle-img {
+  position: relative;
+  vertical-align: middle;
+}
+
+#top-hr {
+  margin-bottom: 30px;
+}
+
+.main-content {
+  margin: 20px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1.2em;
+}
+.top-content {
+  display: inline-block;
+}
+
+.bottom-content {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.features,
+.about {
+  width: 50%;
+  float: left;
+}
+
+.middle-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.services,
+.product,
+.vision {
+  width: 33%;
+  float: left;
+}
+
+address {
+  line-height: 1.2em;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 50px;
+}
