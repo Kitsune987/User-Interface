@@ -175,6 +175,9 @@ nav a {
   padding: 10px;
   display: inline-block;
 }
+nav a:hover {
+  text-decoration: underline;
+}
 
 .logo {
   margin-top: 15px;
@@ -207,6 +210,10 @@ h1 {
   padding: 8px 40px;
   margin-left: 160px;
   margin-top: 20px;
+}
+
+.get-started:hover {
+  background: skyblue;
 }
 
 .circle-img {
@@ -254,6 +261,15 @@ h1 {
 address {
   line-height: 1.2em;
   padding-left: 20px;
+}
+
+address a {
+  text-decoration: none;
+  color: black;
+}
+
+address a:hover {
+  text-decoration: underline;
 }
 
 footer {
