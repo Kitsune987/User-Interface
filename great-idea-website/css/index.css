@@ -185,12 +185,10 @@ nav a {
 .below-header {
   display: inline-block;
   padding-top: 120px;
-  box-sizing: border-box;
 }
 
 h1 {
   display: inline-block;
-  box-sizing: border-box;
   width: 480px;
   font-size: 72px;
   text-align: center;
@@ -223,7 +221,6 @@ h1 {
 .main-content {
   margin: 20px;
   padding-top: 40px;
-  box-sizing: border-box;
   display: inline-block;
   line-height: 1.2em;
 }
