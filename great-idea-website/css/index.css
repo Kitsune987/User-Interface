@@ -240,8 +240,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.features,
-.about {
+.top-paragraph {
   width: 50%;
   float: left;
 }
@@ -251,9 +250,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.services,
-.product,
-.vision {
+.bottom-paragraph {
   width: 33%;
   float: left;
 }
